@@ -46,7 +46,7 @@ function drawMessageGlow() {
     ctx.fillStyle = "white";
 
     // Calculate text width and height to center it
-    const text = "Bur debu ka ?";
+    const text = "Lund lega ?";
     const textWidth = ctx.measureText(text).width;
     const textX = canvas.width / 2 - textWidth / 2;  // Center horizontally
     const textY = canvas.height / 2 + 50;  // Adjust vertically to be inside the heart
